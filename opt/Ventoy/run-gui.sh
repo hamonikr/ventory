@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cd /opt/Ventory
+cd /opt/Ventoy
 
 print_usage() {    
     echo 'Usage:  VentoyWeb.sh [ OPTION ]'   
