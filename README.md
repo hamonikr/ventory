@@ -5,6 +5,18 @@ source : https://github.com/ventoy/Ventoy
 부팅 USB를 제작하지 않고 ISO 파일을 그냥 복사하면 부팅되는 기능을 제공하는 프로그램
 윈도우, 리눅스 등 다양한 운영체제를 한 개의 USB에 넣어서 필요할때 부팅에 사용할 수 있는 기능 제공
 
+
+# Install
+
+## HamoniKR 사용자의 경우
+터미널을 열고(Ctrl+Alt+T) 아래 명령어를 입력하세요.
+
+```
+sudo apt update
+sudo apt install -y ventoy
+```
+
+
 # 사용법
 
 
