@@ -8,12 +8,10 @@ source : https://github.com/ventoy/Ventoy
 # 사용법
 
 
-1) 터미널 (Ctrl + Alt + T)을 열고 `sudo ventoy` 명령을 실행하면 아래와 같은 화면이 브라우저에 나타납니다.
-```
-sudo ventoy
-```
+1) 시작 메뉴에 ventoy 를 검색하여 `ventoy 부팅 USB 제작` 을 클릭하고, 사용자 비밀번호를 입력하면 프로그램이 실행됩니다.
+![스크린샷, 2021-04-29 19-15-26](https://user-images.githubusercontent.com/55476302/116537918-d192b600-a921-11eb-8c34-e4e539b7f79b.png)
 
-![ventoy](docs/img.png)
+
 
 2) USB를 삽입하고 장치를 선택한 후 `설치` 버튼을 누르면 설치 완료. ( USB의 모든 내용이 삭제됩니다.)
 
