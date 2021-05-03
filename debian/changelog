@@ -1,3 +1,9 @@
+ventoy (1.0.41hamonikr3) jin; urgency=medium
+
+  * Add desktop file and icon
+
+ -- HamoniKR <pkg@hamonikr.org>  Thu, 1 May 2021 18:00:23 +0900
+
 ventoy (1.0.41hamonikr2) jin; urgency=medium
 
   * Add desktop file and icon
