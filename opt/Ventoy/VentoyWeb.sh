@@ -45,6 +45,7 @@ if [ ! -f ./boot/boot.img ]; then
     if [ -d ./grub ]; then
         echo "Don't run VentoyWeb.sh here, please download the released install package, and run the script in it."
     else
+        echo "Current directory is $PWD"
         echo "Please run under the correct directory!" 
     fi
     exit 1
@@ -118,12 +119,6 @@ echo "==============================================================="
 echo ""
 echo "################## Press Ctrl + C to exit #####################"
 echo ""
-
-# Get the Real Username
-RUID=$(who | awk 'FNR == 1 {print $1}')
-# Translate Real Username to Real User ID
-RUSER_UID=$(id -u ${RUID})
-sudo -u ${RUID} DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/${RUSER_UID}/bus" xdg-open http://${HOST}:${PORT}
 
 wait $wID
 
