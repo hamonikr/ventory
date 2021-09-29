@@ -1,9 +1,14 @@
+ventoy (1.0.50hamonikr2) hanla; urgency=medium
+
+  * Fix Polkit-1 org.hamonikr.pkexec.ventoy.policy file
+
+ -- HamoniKR <pkg@hamonikr.org>  Wed, 29 Sep 2021 14:05:57 +0900
+
 ventoy (1.0.50hamonikr1) hanla; urgency=medium
 
   * Update Ventoy version 1.0.50
 
  -- HamoniKR <pkg@hamonikr.org>  Fri, 20 Aug 2021 17:05:05 +0900
-
 
 ventoy (1.0.41hamonikr3) jin; urgency=medium
 

@@ -7,7 +7,7 @@
   <vendor>HamoniKR Desktop Policy Project</vendor>
   <vendor_url>https://hamonikr.org</vendor_url>
 
-  <action id="org.hamonikr.pkexec.boot-select">
+  <action id="org.hamonikr.pkexec.ventoy">
     <message>Authentication is required to run this program.</message>
     <message xml:lang="ko">이 프로그램은 관리자 권한이 필요합니다.</message>    
     <icon_name>ventoy</icon_name>
