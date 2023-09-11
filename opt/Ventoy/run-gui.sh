@@ -127,8 +127,8 @@ fi
 
 RUID=$(who | awk 'FNR == 1 {print $1}')
 RUSER_UID=$(id -u ${RUID})
-#sudo -u ${RUID} DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/${RUSER_UID}/bus" xdg-open http://${HOST}:${PORT}
-sudo -u ${RUID} DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/${RUSER_UID}/bus" ./hamonikr-open-cli http://${HOST}:${PORT}
+sudo -u ${RUID} DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/${RUSER_UID}/bus" xdg-open http://${HOST}:${PORT}
+# sudo -u ${RUID} DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/${RUSER_UID}/bus" ./hamonikr-open-cli http://${HOST}:${PORT}
 
 wait $wID
 

@@ -4,8 +4,8 @@ Version=1.0
 Name=ventoy
 Name[ko]=ventoy 부팅 USB 제작
 Icon=ventoy
-Exec=ventoy
-Terminal=true
+Exec=/opt/Ventoy/VentoyGUI.x86_64
+Terminal=false
 Categories=Utility;
 Keywords=ventoy;usb;
 

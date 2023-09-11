@@ -1,3 +1,12 @@
+ventoy (1.0.95+hamonikr1) stable; urgency=medium
+
+  * New Upstream ver 1.0.95
+  * Release on Ubuntu 22.04
+   - removed cli scripts
+   - changed start script as /opt/Ventoy/VentoyGUI.x86_64
+
+ -- HamoniKR <pkg@hamonikr.org>  Mon, 11 Sep 2023 14:59:54 +0900
+
 ventoy (1.0.50hamonikr2) hanla; urgency=medium
 
   * Fix Polkit-1 org.hamonikr.pkexec.ventoy.policy file
