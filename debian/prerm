@@ -1,0 +1,5 @@
+#!/bin/bash
+
+if [ -d /opt/Ventoy ]; then
+    rm -rf /opt/Ventoy || true
+fi

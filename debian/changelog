@@ -1,0 +1,43 @@
+ventoy (1.0.95+hamonikr3) kumkang; urgency=medium
+
+  * downgrade for unstable
+   - latest version have bug
+   - chain failed when try boot
+
+ -- HamoniKR <pkg@hamonikr.org>  Tue, 24 Oct 2023 20:07:35 +0900
+
+ventoy (1.0.80-hamonikr1) taebaek; urgency=medium
+
+  * Merged from upstream ventoy-1.0.80
+
+ -- HamoniKR <pkg@hamonikr.org>  Thu, 13 Oct 2022 13:33:56 +0900
+
+ventoy (1.0.50hamonikr2) hanla; urgency=medium
+
+  * Fix Polkit-1 org.hamonikr.pkexec.ventoy.policy file
+
+ -- HamoniKR <pkg@hamonikr.org>  Wed, 29 Sep 2021 14:05:57 +0900
+
+ventoy (1.0.50hamonikr1) hanla; urgency=medium
+
+  * Update Ventoy version 1.0.50
+
+ -- HamoniKR <pkg@hamonikr.org>  Fri, 20 Aug 2021 17:05:05 +0900
+
+ventoy (1.0.41hamonikr3) jin; urgency=medium
+
+  * Add desktop file and icon
+
+ -- HamoniKR <pkg@hamonikr.org>  Thu, 1 May 2021 18:00:23 +0900
+
+ventoy (1.0.41hamonikr2) jin; urgency=medium
+
+  * Add desktop file and icon
+
+ -- HamoniKR <pkg@hamonikr.org>  Thu, 29 Apr 2021 18:00:23 +0900
+
+ventoy (1.0.41hamonikr1) unstable; urgency=medium
+
+  * Release for HamoniKR 4.0
+
+ -- HamoniKR <pkg@hamonikr.org>  Thu, 22 Apr 2021 18:36:55 +0900

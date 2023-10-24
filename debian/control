@@ -1,0 +1,12 @@
+Source: ventoy
+Section: utils
+Priority: optional
+Maintainer: HamoniKR <pkg@hamonikr.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+
+Package: ventoy
+Architecture: all
+Depends: 
+Description: Ventoy tool for HamoniKR
+ ISO 이미지를 복사하면 부팅할 수 있는 USB 제작 프로그램.

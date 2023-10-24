@@ -1,0 +1,3 @@
+#!/bin/sh
+
+pkexec /opt/Ventoy/VentoyGUI.x86_64
